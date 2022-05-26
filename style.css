@@ -1,12 +1,38 @@
 body {
+    font-family: Helvetica, Arial, sans-serif;
+}
 
+.header,
+.footer,
+.about {
+    background-color: #1f2937;
 }
 
 .header {
-
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
 }
 
-.header-left{
+.header a,
+.text p,
+.footer {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.button, 
+.action {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.header-left
+{
 
 }
 
@@ -15,7 +41,9 @@ body {
 }
 
 .about {
-
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:900;
 }
 
 .about .text{
@@ -27,11 +55,16 @@ body {
 }
 
 .about .placeholder{
-
+    background-color: #6D757E;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 400;
 }
 
-.information {
-
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .information .card {
@@ -39,15 +72,26 @@ body {
 }
 
 .card .block {
-
+    border: #3882F6 1px solid;
 }
 
 .card .caption{
-
+    font-size: 18px;
+    color: #6D757E;
 }
 
 .quote {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
 
+.signature {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .action {
