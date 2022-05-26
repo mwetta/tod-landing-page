@@ -134,12 +134,14 @@ h2 {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
+    padding: 100px;
 }
 
 .signature {
     font-size: 24px;
     font-weight: 900;
     font-style: normal;
+    text-align: right;
 }
 
 .action {
