@@ -78,31 +78,54 @@ body {
     font-size: 18px;
     min-width: 400px;
     height: auto;
-    font-weight: 400;
+    font-weight: 300;
     display:flex;
     align-items: center;
     justify-content: center;
 }
 
-.information h2 {
+.information {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    text-align: center;
 }
 
-.information .card {
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
-.card .block {
-    border: #3882F6 1px solid;
-    height: 100px;
-    width: 100px;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
 }
 
-.card .caption{
+.block {
+    border: #3882F6 4px solid;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.caption {
     font-size: 18px;
     color: #6D757E;
+    text-align: center;
 }
 
 .quote {
