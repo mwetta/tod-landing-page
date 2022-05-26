@@ -50,11 +50,11 @@ body {
     color: #F9FAF8;
     padding: 100px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .about .hero {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 900;
 }
 
@@ -100,8 +100,7 @@ h2 {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px;
     justify-content: center;
     align-items: center;
 }
@@ -111,15 +110,15 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 175px;
     height: auto;
 }
 
 .block {
     border: #3882F6 4px solid;
     border-radius: 20px;
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
 }
 
 .caption {
