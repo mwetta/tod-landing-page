@@ -40,13 +40,17 @@ body {
     font-size: 18px;
 }
 
-.header-left
+.header-left,
+.header-right
 {
     align-self: center;
 }
 
-.header-right{
-
+.about {
+    color: #F9FAF8;
+    padding: 100px;
+    display: flex;
+    gap: 10px;
 }
 
 .about .hero {
@@ -54,27 +58,18 @@ body {
     font-weight: 900;
 }
 
-.about {
-    color: #F9FAF8;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.about .text{ /* work on gap between h1 and p */
+.about .text{ 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     padding: 0;
     min-width: 400px;
+    gap: 0;
 }
 
 .about .button {
     border: none;
     padding: 8px 32px;
-    
 }
 
 .about .placeholder{
@@ -84,7 +79,9 @@ body {
     min-width: 400px;
     height: auto;
     font-weight: 400;
-
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .information h2 {
