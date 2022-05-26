@@ -85,7 +85,7 @@ body {
 }
 
 .information {
-    padding: 50px 100px;
+    padding: 50px 200px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -133,7 +133,7 @@ h2 {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    padding: 100px;
+    padding: 100px 200px;
 }
 
 .signature {
@@ -144,19 +144,34 @@ h2 {
 }
 
 .action {
+    margin: 100px;
+}
+
+.call {
+    padding: 25px 100px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
 
 }
 
-.action .call {
-
+.bold {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .call .button {
-
+    border: solid 2px #F9FAF8;
+    padding: 8px 32px;
 }
 
 .footer {
+    display: flex;
     padding: 16px;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
