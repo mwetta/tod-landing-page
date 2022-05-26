@@ -1,21 +1,30 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /*justify-content: center;*/
 }
+
 
 .header,
 .footer,
 .about {
     background-color: #1f2937;
+   
 }
 
 .header {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 100px 16px 100px;
 }
 
 .header a,
-.text p,
+.text .subtext,
 .footer {
     color: #E5E7EB;
     font-size: 18px;
@@ -24,7 +33,7 @@ body {
 }
 
 .button, 
-.action {
+.call {
     background-color: #3882F6;
     border-radius: 6px;
     color: #F9FAF8;
@@ -33,32 +42,49 @@ body {
 
 .header-left
 {
-
+    align-self: center;
 }
 
 .header-right{
 
 }
 
-.about {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight:900;
+.about .hero {
+    font-size: 36px;
+    font-weight: 900;
 }
 
-.about .text{
+.about {
+    color: #F9FAF8;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
 
+.about .text{ /* work on gap between h1 and p */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    min-width: 400px;
 }
 
 .about .button {
-
+    border: none;
+    padding: 8px 32px;
+    
 }
 
 .about .placeholder{
     background-color: #6D757E;
     color: #F9FAF8;
     font-size: 18px;
+    min-width: 400px;
+    height: auto;
     font-weight: 400;
+
 }
 
 .information h2 {
@@ -73,6 +99,8 @@ body {
 
 .card .block {
     border: #3882F6 1px solid;
+    height: 100px;
+    width: 100px;
 }
 
 .card .caption{
@@ -107,13 +135,11 @@ body {
 }
 
 .footer {
-
+    padding: 16px;
 }
 
 ul {
-
-}
-
-li {
-
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
